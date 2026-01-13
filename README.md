@@ -57,5 +57,13 @@ and CLI logic separate.
 - 🔑 A valid Threads API access token  
 - 👤 A Threads user ID associated with the token  
 
-All external dependencies are listed in `requirements.txt`.
+🖼 Publish an image
+python cli.py \
+  --image https://example.com/image.jpg \
+  --caption "Image caption"
+
+🎥 Publish a video
+python cli.py \
+  --video https://example.com/video.mp4 \
+  --caption "Video caption"
 
